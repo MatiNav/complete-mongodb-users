@@ -1,0 +1,22 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "parserOptions": {
+    "parser": "typescript-eslint-parser"
+  },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-console": "off",
+    "func-names": "off",
+    "consistent-return": "off",
+    "no-underscore-dangle": "off",
+    "no-param-reassign": "off",
+    "global-require": "off",
+    "no-plusplus": "off",
+    "no-useless-escape": "off"
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "plugins": ["prettier"]
+}
